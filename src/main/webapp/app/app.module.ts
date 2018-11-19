@@ -20,7 +20,7 @@ import { StateStorageService } from 'app/core/auth/state-storage.service';
 import * as moment from 'moment';
 // jhipster-needle-angular-add-module-import JHipster will add new module here
 import { ErrorComponent, FooterComponent, JhiMainComponent, NavbarComponent, PageRibbonComponent } from './layouts';
-import { HackjamJhipsterAppointmentModule } from 'app/appointment';
+import { HackjamJhipsterAppointmentModule } from 'app/appointment/appointment.module';
 
 @NgModule({
     imports: [

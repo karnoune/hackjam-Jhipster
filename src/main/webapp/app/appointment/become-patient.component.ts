@@ -16,7 +16,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
                     <h2 id="jhi-patient-heading">Become a Patient</h2>
                     <div>
                         <jhi-alert-error></jhi-alert-error>
-                        <div ngIf="isSuccess" class="alert alert-success" role="alert">
+                        <div *ngIf="isSuccess" class="alert alert-success" role="alert">
                             This is a success! The doctor will check it ASAP
                         </div>
                         <div class="form-group">

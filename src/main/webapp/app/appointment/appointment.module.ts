@@ -6,7 +6,8 @@ import { BECOME_PATIENT_ROUTE, BecomePatientComponent } from './';
 
 @NgModule({
     imports: [HackjamJhipsterSharedModule, RouterModule.forChild([BECOME_PATIENT_ROUTE])],
-    declarations: [],
-    schemas: [CUSTOM_ELEMENTS_SCHEMA]
+    declarations: [BecomePatientComponent],
+    schemas: [CUSTOM_ELEMENTS_SCHEMA],
+    exports: [BecomePatientComponent]
 })
 export class HackjamJhipsterAppointmentModule {}
